@@ -1,0 +1,8 @@
+#potsdam_test.caffemodel
+https://drive.google.com/file/d/1L19YG5yAe4z6JijjzUlgmvg1nEvujV6w/view?usp=sharing
+
+#vaihingen_test.caffemodel
+https://drive.google.com/file/d/1JJCJ4KeQn-92inc7o-vNE-zw_py094fe/view?usp=sharing
+
+#whu_test.caffemodel
+https://drive.google.com/file/d/15n3R7TqDxJQ9Q1uI5oF0xAPjrGJO9wLT/view?usp=sharing

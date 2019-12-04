@@ -1,0 +1,14 @@
+net: "/ALRNet/models/whu_train.prototxt"
+test_initialization: false
+test_iter: 1
+test_interval: 1000000
+base_lr: 0.00005
+momentum: 0.9
+momentum2: 0.999
+lr_policy: "fixed"
+display: 20
+max_iter: 300000
+snapshot: 20000
+snapshot_prefix: "/ALRNet/models/Training/alrnet_whu_0.00005"
+type: "Adam"
+solver_mode: GPU

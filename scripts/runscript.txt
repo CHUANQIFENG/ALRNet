@@ -1,0 +1,13 @@
+#For Potsdam train & val
+
+python train_model.py 2>&1 | tee /ALRNet/Log/train_log_0.00005.log
+
+python /ALRNet/scripts/compute_bn_statistics.py /ALRNet/models/potsdam_train.prototxt /ALRNet/models/Training/alrnet_potsdam_0.00005_iter_200000
+.caffemodel /ALRNet/models/Inference;
+
+python /ALRNet/scripts/test_segmentation.py --model /ALRNet/models/potsdam_inference.prototxt --weights /ALRNet/models/Inference/potsdam_test.caffemodel --iter 5400 --file_dir /ALRNet/Data/Potsdam/test/IRRG --out_dir /ALRNet/results/potsdam_patches;
+
+
+
+
+

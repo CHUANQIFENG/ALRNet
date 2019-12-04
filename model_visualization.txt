@@ -5,13 +5,11 @@ alrnet_potsdam_inference.prototxt
 http://ethereon.github.io/netscope/#/gist/1cb7220686a1c1831acffbf3861a5162
 
 
-
 alrnet_vaihingen_train.prototxt
 http://ethereon.github.io/netscope/#/gist/7d9f8e0d8b69515d89b93b7bef0f9afc
 
 alrnet_vaihingen_inference.prototxt
 http://ethereon.github.io/netscope/#/gist/11b628968f03b969767f10487d9f7bb4
-
 
 
 alrnet_whu_train.prototxt

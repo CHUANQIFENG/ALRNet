@@ -1,2 +1,2 @@
 # ALRNet
- Semantic segmentation of VHR images
+ Attention guided label refinement network for semantic segmentation of VHR aerial images
